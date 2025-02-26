@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    
+}
+
+nav a {
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.welcome {
+    padding: 50px;
+    color: rgba(5, 36, 45, 0.951);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #117fec;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgba(10, 184, 241, 0.951);
+  
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(0, 191, 255, 0.8);
+
+    
+}
+
+.notes-list {
+    padding: 20px;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+footer:hover{
+    transform: scale(1.0);
+    box-shadow: 0px 0px 20px rgba(249, 36, 3, 0.8);
+  }
+    
